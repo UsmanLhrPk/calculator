@@ -1,0 +1,76 @@
+.calculator {
+  border-radius: 1rem;
+  overflow-y: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  font-size: 1.75rem;
+  font-family: monospace;
+  width: 187px;
+  height: 2rem;
+  text-align: end;
+  padding: 7px;
+  background-color: bisque;
+  padding-top: 1rem;;
+  padding-bottom: 1rem;;
+  overflow: unset;
+}
+
+.col-2 .numpad-button {
+  width: 100px;
+}
+
+.numpad-button {
+  cursor: pointer;
+  background-color: rgba(160, 157, 157, 0.6);
+  border: none;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  font-size: 1rem;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.numpad-button:hover {
+  background-color: rgba(130, 129, 129, 0.6);
+}
+
+.numpad-button:active {
+  background-color: rgb(160, 157, 157);
+}
+
+.oppad .numpad-button {
+ font-size: 2rem;
+ background-color: orange;
+}
+
+.oppad .numpad-button:hover {
+ background-color: rgb(228, 148, 1);
+}
+
+.oppad .numpad-button:active {
+ background-color: orange;
+}
+
+.auxpad .numpad-button {
+ background-color: rgb(128, 146, 163);
+}
+
+.auxpad .numpad-button:hover {
+ background-color: slategray;
+}
+
+.auxpad .numpad-button:active {
+ background-color: rgb(128, 146, 163);
+}
